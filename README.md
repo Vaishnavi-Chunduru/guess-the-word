@@ -12,7 +12,7 @@ The application supports two different user roles:
 ---
 ## Project Demo
 
-![Game Demo](guess-the-word-game-final.mp3)
+![Game Demo](guess-the-word-game-final-demo.mp4)
 
 # 📌 Features
 
