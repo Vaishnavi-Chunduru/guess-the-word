@@ -11,7 +11,7 @@ The application supports two different user roles:
 
 ---
 ## Project Demo Video
-▶️ [Watch the gameplay video](https://drive.google.com/file/d/1MVdf6xz8H-N-utQS3qsRGhp1KFkqx9BM/view?usp=drive_link)
+▶️ [Watch the gameplay video](https://drive.google.com/file/d/1InlNqfmkJTfI_dpcuS6stewNofAje-uT/view?usp=drive_link)
 
 # 📌 Features
 
