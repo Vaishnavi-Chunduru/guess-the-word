@@ -11,8 +11,7 @@ The application supports two different user roles:
 
 ---
 ## Project Demo
-
-![Game Demo](Guess-the-word-game-final-demo.mp4)
+▶️ [Watch the gameplay video](./Guess-the-word-game-final-demo.mp4)
 
 # 📌 Features
 
