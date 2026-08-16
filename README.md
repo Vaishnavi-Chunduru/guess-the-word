@@ -10,8 +10,8 @@ The application supports two different user roles:
 - **Admin**
 
 ---
-## Project Demo
-▶️ [Watch the gameplay video](./Guess-the-word-game-final-demo.mp4)
+## Project Demo Video
+▶️ [Watch the gameplay video](https://drive.google.com/file/d/1MVdf6xz8H-N-utQS3qsRGhp1KFkqx9BM/view?usp=drive_link)
 
 # 📌 Features
 
