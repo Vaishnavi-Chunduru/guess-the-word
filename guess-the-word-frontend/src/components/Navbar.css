@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 18px 40px;
+
+    background: rgba(15, 20, 60, 0.7);
+
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+.navbar h2 {
+    margin: 0;
+
+    font-size: 34px;
+
+    font-weight: 800;
+
+    color: white;
+
+    letter-spacing: 1px;
+
+    text-shadow: 0 0 20px rgba(0, 229, 255, 0.8);
+}
+
+.nav-links {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+}
+
+.nav-links button {
+    padding: 10px 22px;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    backdrop-filter: blur(10px);
+
+    transition: all 0.3s ease;
+}
+
+.nav-links button:hover {
+    transform: translateY(-2px);
+
+    background: linear-gradient(
+            135deg,
+            #00d4ff,
+            #6c63ff,
+            #c44dff
+    );
+
+    box-shadow: 0 0 20px rgba(108, 99, 255, 0.6);
+}
+
+.logout-btn {
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+
+        gap: 15px;
+
+        padding: 20px;
+    }
+
+    .navbar h2 {
+        font-size: 28px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+}

@@ -1,0 +1,127 @@
+.instructions-page {
+    min-height: 100vh;
+
+    background-image: url("../assets/background.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    padding-bottom: 50px;
+}
+
+.instructions-container {
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 40px 20px;
+
+    text-align: center;
+}
+
+.instructions-container h1 {
+    margin-bottom: 40px;
+
+    color: white;
+
+    font-size: 48px;
+
+    text-shadow:
+            0 0 15px rgba(0, 212, 255, 0.8),
+            0 0 30px rgba(108, 99, 255, 0.8);
+}
+
+.instructions-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+.instruction-card {
+    padding: 30px;
+
+    text-align: left;
+
+    border-radius: 25px;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    box-shadow:
+            0 10px 30px rgba(0, 0, 0, 0.3);
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+.instruction-card:hover {
+    transform: translateY(-5px);
+}
+
+.instruction-card h2 {
+    margin-top: 0;
+
+    margin-bottom: 20px;
+
+    color: white;
+}
+
+.instruction-card ul,
+.instruction-card ol {
+    padding-left: 20px;
+
+    line-height: 1.8;
+
+    font-size: 18px;
+}
+
+.color-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 20px;
+}
+
+.color-box {
+    width: 35px;
+
+    height: 35px;
+
+    border-radius: 8px;
+}
+
+.green {
+    background: #6aaa64;
+}
+
+.yellow {
+    background: #c9b458;
+}
+
+.gray {
+    background: #787c7e;
+}
+
+@media (max-width: 768px) {
+    .instructions-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .instructions-container h1 {
+        font-size: 36px;
+    }
+}

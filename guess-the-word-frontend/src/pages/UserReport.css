@@ -1,0 +1,145 @@
+.user-report-page {
+    min-height: 100vh;
+
+    padding-bottom: 40px;
+
+    background-image: url("../assets/background.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.user-report-container {
+    max-width: 1100px;
+
+    margin: 40px auto;
+
+    padding: 0 20px;
+
+    text-align: center;
+}
+
+.user-report-container h1 {
+    margin-bottom: 35px;
+
+    color: white;
+
+    font-size: 46px;
+
+    text-shadow:
+            0 0 15px rgba(0, 212, 255, 0.8),
+            0 0 30px rgba(108, 99, 255, 0.6);
+}
+
+.report-table {
+    width: 100%;
+
+    border-collapse: separate;
+
+    border-spacing: 0;
+
+    overflow: hidden;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    border-radius: 20px;
+
+    box-shadow:
+            0 10px 30px rgba(0, 0, 0, 0.3);
+
+    font-size: 24px;
+}
+
+.report-table thead {
+    background: linear-gradient(
+            135deg,
+            #00d4ff,
+            #6c63ff,
+            #c44dff
+    );
+
+    color: white;
+}
+
+.report-table th {
+    padding: 22px;
+
+    text-align: center;
+
+    color: white;
+
+    font-size: 22px;
+
+    font-weight: 700;
+}
+
+.report-table td {
+    padding: 22px;
+
+    text-align: center;
+
+    color: white;
+
+    font-size: 20px;
+
+    font-weight: 500;
+}
+
+.report-table tbody tr {
+    border-bottom:
+            1px solid rgba(255, 255, 255, 0.15);
+
+    transition: 0.3s;
+}
+
+.report-table tbody tr:hover {
+    background:
+            rgba(255, 255, 255, 0.1);
+
+    transform: scale(1.01);
+}
+
+.report-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.no-data {
+    margin-top: 30px;
+
+    font-size: 22px;
+
+    color: white;
+
+    text-shadow:
+            0 0 10px rgba(0, 212, 255, 0.8);
+}
+
+@media (max-width: 768px) {
+    .user-report-container {
+        padding: 0 10px;
+    }
+
+    .user-report-container h1 {
+        font-size: 24px;
+    }
+
+    .report-table {
+        font-size: 14px;
+    }
+
+    .report-table th,
+    .report-table td {
+        padding: 14px;
+
+        font-size: 16px;
+    }
+}
