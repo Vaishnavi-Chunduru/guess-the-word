@@ -275,6 +275,93 @@ Authenticated API Requests
 - The hidden word is revealed after losing.
 
 ---
+# 📸 Screenshots
+
+## 🏠 Start Page
+
+The landing page introduces the game and provides access to the login page.
+
+![Start Page](Screenshots/Start-Page.png)
+
+---
+
+## 🔐 Login Page
+
+Players can log in using their registered credentials.
+
+![Login Page](Screenshots/Login-Page.png)
+
+---
+
+## 📝 Register Page
+
+New users can create an account by providing a valid username and password.
+
+![Register Page](Screenshots/Register-Page.png)
+
+---
+
+## 👤 User Dashboard
+
+The player dashboard provides quick access to the game, personal reports, and instructions.
+
+![User Dashboard](Screenshots/User-Dashboard.png)
+
+---
+
+## 📖 Instructions Page
+
+The instructions page explains the game rules, color indicators, constraints, and useful tips.
+
+![Instructions Page](Screenshots/Instructions-Page.png)
+
+---
+
+## 🎮 Game Start Page
+
+Players can begin a new game and receive the hidden-word challenge.
+
+![Game Start Page](Screenshots/GameStart-Page.png)
+
+---
+
+## 🏆 Winning a Game
+
+When the correct word is guessed, the application displays a success message.
+
+![Winning a Game](Screenshots/GameWon.png)
+
+---
+
+## ❌ Losing a Game
+
+If all attempts are used, the hidden word is revealed.
+
+![Losing a Game](Screenshots/GameLost.png)
+
+---
+
+## ⏳ Daily Limit Reached
+
+Players can play a maximum of three games per day. After reaching the limit, the application prevents additional games.
+
+![Daily Limit](Screenshots/Limit-Page.png)
+
+---
+
+## 📊 User Report Page
+
+Players can view their game history, including the number of words tried and correct guesses.
+
+![User Report](Screenshots/UserReport-Page.png)
+
+---
+
+## 👨‍💼 Admin Dashboard
+
+Administrators can generate daily reports, view the number of users and games played, see player names, and download reports.
+
+![Admin Dashboard](Screenshots/Admin-Dashboard.png)
 
 # 🔌 REST API Endpoints
 
